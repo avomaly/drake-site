@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base: #0D0608;
+  --color-burgundy: #4A0E1A;
+  --color-wine: #2D0810;
+  --color-champagne: #F5E6D0;
+  --color-rose-gold: #C49A6C;
+  --color-cream: #FAF3E8;
+  --color-ovo-gold: #C49A6C;
+  --color-ovo-dark: #0D0608;
+  --color-ovo-mid: #1A0810;
+  
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-inter: Inter, sans-serif;
+  --font-bebas: "Bebas Neue", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #0D0608;
+    color: #FAF3E8;
+    font-family: Inter, sans-serif;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0D0608;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C49A6C;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FAF3E8;
+  }
+}
+
+/* Perspective for card flip */
+.card-container {
+  perspective: 1200px;
+}
+.card-inner {
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+}
+.card-container:hover .card-inner {
+  transform: rotateY(180deg);
+}
+.card-front, .card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Glass panel */
+.glass-panel {
+  background: rgba(45, 8, 16, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(196, 154, 108, 0.2);
+}
+
+.glass-panel-light {
+  background: rgba(250, 243, 232, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(250, 243, 232, 0.1);
+}
+
+/* Custom glow effect */
+.rose-gold-glow {
+  box-shadow: 0 0 20px rgba(196, 154, 108, 0.15);
+}
+.rose-gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(196, 154, 108, 0.35);
+  border-color: rgba(196, 154, 108, 0.6);
+}
+
+/* Animations */
+@keyframes breathe {
+  0%, 100% { background-color: #0D0608; }
+  50% { background-color: #2D0810; }
+}
+.animate-breathe {
+  animation: breathe 10s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes fadeOut {
+  from { opacity: 0.6; transform: scale(1); }
+  to { opacity: 0; transform: scale(0.6); }
+}
+.animate-footstep {
+  animation: fadeOut 1s forwards ease-out;
+}
+
+/* Nokia Monophonic Screen Gradient */
+.nokia-screen-glow {
+  background: radial-gradient(circle at center, #d4f7d4 0%, #7dbd7d 100%);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Rain Effect */
+.rain-drop {
+  position: absolute;
+  background: linear-gradient(transparent, rgba(245, 230, 208, 0.2));
+  width: 1px;
+  height: 60px;
+  pointer-events: none;
+  animation: fall linear infinite;
+}
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+/* Rose Petal Effect */
+.rose-petal {
+  position: absolute;
+  background: radial-gradient(#4A0E1A, #2D0810);
+  border-radius: 100% 0 100% 100%;
+  pointer-events: none;
+  animation: float-petal linear infinite;
+}
+@keyframes float-petal {
+  0% {
+    transform: translateY(-50px) rotate(0deg) translateX(0px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg) translateX(100px);
+    opacity: 0;
+  }
+}
