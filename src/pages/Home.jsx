@@ -66,14 +66,14 @@ const AlbumCard = ({ album, idx, coverUrl, coversLoading }) => {
               style={{ backgroundColor: album.accentColor }}
             />
             {coversLoading || !coverUrl ? (
-              <div className="z-10 w-[70%] aspect-square bg-white/5 border border-white/10 animate-pulse flex items-center justify-center">
+              <div className={`z-10 w-[70%] aspect-square bg-white/5 border border-white/10 animate-pulse flex items-center justify-center transition-opacity duration-700 ${isHovered ? 'opacity-0' : 'opacity-100'}`}>
                 <span className="text-[10px] font-bebas text-rose-gold/60 tracking-wider">LOADING...</span>
               </div>
             ) : (
               <img 
                 src={coverUrl}
                 alt={album.title}
-                className="z-10 w-[70%] aspect-square object-cover shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-700 border border-white/10"
+                className={`z-10 w-[70%] aspect-square object-cover shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-700 border border-white/10 ${isHovered ? 'opacity-0' : 'opacity-100'}`}
               />
             )}
           </div>

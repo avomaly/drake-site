@@ -47,26 +47,14 @@ export const AppProvider = ({ children }) => {
     return audioCtxRef.current;
   };
 
-  // Fetch Album Cover Arts on Mount
+  // Set Album Cover Arts on Mount
   useEffect(() => {
-    const fetchCovers = async () => {
-      const newCovers = {};
-      await Promise.all(albums.map(async (album) => {
-        try {
-          const artist = "Drake";
-          const query = album.slug === 'some-sexy-songs' 
-            ? "Drake PARTYNEXTDOOR" 
-            : album.title;
-          const cover = await getAlbumArt(artist, query);
-          newCovers[album.slug] = cover || album.coverUrl;
-        } catch (e) {
-          newCovers[album.slug] = album.coverUrl;
-        }
-      }));
-      setAlbumCovers(newCovers);
-      setCoversLoading(false);
-    };
-    fetchCovers();
+    const newCovers = {};
+    albums.forEach((album) => {
+      newCovers[album.slug] = album.coverUrl;
+    });
+    setAlbumCovers(newCovers);
+    setCoversLoading(false);
   }, []);
 
   // 1. Nokia Hotline Bling Ringtone Synth (Retro Monophonic)
