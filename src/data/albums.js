@@ -9,7 +9,7 @@ export const albums = [
     tracklist: ['Fireworks','Karaoke','The Resistance','Over','Show Me A Good Time','Up All Night','Fancy','Shut It Down','Unforgettable','Light Up','Miss Me','Lose You','Find Your Love'],
     description: 'The debut that put the world on notice. A 23-year-old Drake arrived fully formed — vulnerable, ambitious, cinematic. Toronto had a king.',
     dna: { emotion: 75, production: 80, lyricism: 78, commercial: 85, toronto: 70 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/6/6d/Thank_Me_Later.jpg',
+    coverUrl: '/covers/thank-me-later.jpg',
     spotifyId: '68pi62529N363Z1nmwFhF4',
     youtubeId: 'x_k8kO53xXQ',
     streams: 8.2
@@ -24,7 +24,7 @@ export const albums = [
     tracklist: ['Over My Dead Body','Shot For Me','Marvins Room','Buried Alive Interlude','Under Ground Kings','We\'ll Be Fine','Make Me Proud','Lord Knows','Crew Love','Take Care','Look What You\'ve Done','Feel No Ways','The Real Her','Hate Sleeping Alone','Doing It Wrong','The Ride','The Motto','Cameras','Come Thru'],
     description: 'The masterpiece. Dark, confessional, sonically stunning. Take Care invented a lane that everyone else is still chasing. The blueprint for emotional rap.',
     dna: { emotion: 99, production: 97, lyricism: 95, commercial: 90, toronto: 88 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/4/4f/Take_Care_album_cover.jpg',
+    coverUrl: '/covers/take-care.jpg',
     spotifyId: '6Mnj9mqBXtR6j66iHhpxM3',
     youtubeId: 'nWYFCQyXX5Y',
     streams: 24.7
@@ -39,7 +39,7 @@ export const albums = [
     tracklist: ['Tuscan Leather','Furthest Thing','Started From The Bottom','Wu-Tang Forever','Own It','Worst Behaviour','From Time','Hold On We\'re Going Home','Connect','The Language','305 To My City','Too Much','Pound Cake','Come Thru','All Me'],
     description: 'Drake at his most confident. Started From The Bottom wasn\'t just a song, it was a declaration. Nothing Was The Same proved the Take Care wasn\'t a fluke.',
     dna: { emotion: 85, production: 92, lyricism: 88, commercial: 95, toronto: 90 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/8/8e/Nothing_Was_the_Same_%28album%29.png',
+    coverUrl: '/covers/nothing-was-the-same.jpg',
     spotifyId: '0fVmgk7t54GudnpxK1R3lB',
     youtubeId: 'RubBzkdrk2Y',
     streams: 18.3
@@ -54,7 +54,7 @@ export const albums = [
     tracklist: ['Legend','Energy','10 Bands','Know Yourself','No Tellin\'','Madonna','6 God','Preach','6 Man','Now & Forever','Company','You & The 6','Jungle'],
     description: 'The mixtape that broke the internet. Dropped with zero warning, certified platinum before anyone knew what happened. Know Yourself became a Toronto anthem.',
     dna: { emotion: 70, production: 88, lyricism: 85, commercial: 92, toronto: 99 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/c/c4/If_You%27re_Reading_This_It%27s_Too_Late.jpg',
+    coverUrl: '/covers/if-youre-reading-this.jpg',
     spotifyId: '07w0x6QUT9nBBhnUschwKj',
     youtubeId: '7LnBvuzjpr4',
     streams: 15.1
@@ -69,7 +69,7 @@ export const albums = [
     tracklist: ['Digital Dash','Big Rings','Scholarships','Jumpman','Diamonds Dancing','Plastic Bag','Low Life','Grazy','I\'ll Handle It','Change Locations','30 For 30 Freestyle','R.I.C.O.'],
     description: 'Drake and Future together is dangerous. Jumpman became one of the biggest rap records of the decade. A chaotic, maximalist collab tape.',
     dna: { emotion: 55, production: 90, lyricism: 65, commercial: 95, toronto: 70 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/b/b8/What_a_Time_to_Be_Alive_%28mixtape%29.jpg',
+    coverUrl: '/covers/what-a-time-to-be-alive.jpg',
     spotifyId: '1a6N1v5oG6l2z1Yx33cR8N',
     youtubeId: 'RubBzkdrk2Y', // Fallback to Rich Flex search theme / or standard Jumpman
     streams: 12.4
@@ -84,7 +84,7 @@ export const albums = [
     tracklist: ['Keep the Family Close','9','U With Me?','Feel No Ways','Hype','Weston Road Flows','Redemption','With You','Faithful','Still Here','Contraband','One Dance','Grips','Too Good','Summers Over Interlude','Fire & Desire','Views','Hotline Bling'],
     description: 'Drake on top of the CN Tower, literally and metaphorically. Hotline Bling became a meme, One Dance became a global hit. Views was a cultural moment.',
     dna: { emotion: 72, production: 85, lyricism: 70, commercial: 99, toronto: 95 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/9/90/Drake_-_Views.png',
+    coverUrl: '/covers/views.jpg',
     spotifyId: '4OjOC3tzy75yYcK4wBCEB3',
     youtubeId: 'uxpDa-c-4Mc',
     streams: 22.8
@@ -99,7 +99,7 @@ export const albums = [
     tracklist: ['Free Smoke','No Long Talk','Passionfruit','Jorja Interlude','Get It Together','Madiba Riddim','Blem','4422','Gyalchester','Skepta Interlude','Portland','Sacrifices','Nothings Into Somethings','Teenage Fever','KMT','Lose You','Can\'t Have Everything','Glow','Since Way Back','Fake Love','Ice Melts','Do Not Disturb'],
     description: 'A global playlist from the 6 God. Afrobeats, dancehall, UK grime — Drake absorbed sounds from around the world and made them his own. Passionfruit is perfect.',
     dna: { emotion: 80, production: 92, lyricism: 75, commercial: 88, toronto: 82 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/8/8e/More_Life.jpg',
+    coverUrl: '/covers/more-life.jpg',
     spotifyId: '1lXY618xlmJ1j9qiV65t6N',
     youtubeId: '1DlSH766L_I',
     streams: 19.6
@@ -114,7 +114,7 @@ export const albums = [
     tracklist: ['Survival','Nonstop','Elevate','Emotionless','God\'s Plan','I\'m Upset','8 Out of 10','Mob Ties','Can\'t Take a Joke','Sandra\'s Rose','Talk Up','Is There More','Peak','Summer Games','Jaded','Nice for What','Finesse','Ratchet Happy Birthday','That\'s How You Feel','Blue Tint','In My Feelings','Don\'t Matter to Me','After Dark','Final Fantasy','March 14'],
     description: 'The Pusha T era. Scorpion was Drake answering back on wax, revealing his son, and dropping God\'s Plan in the same breath. The double album that broke streaming records.',
     dna: { emotion: 82, production: 88, lyricism: 80, commercial: 97, toronto: 85 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/8/83/Scorpion_by_Drake.jpg',
+    coverUrl: '/covers/scorpion.jpg',
     spotifyId: '1yGbNOtRIgdchJgZOb6t6S',
     youtubeId: 'xpVfcZ0ZcFM',
     streams: 28.4
@@ -129,7 +129,7 @@ export const albums = [
     tracklist: ['Tootsie Slide','When to Say When','Chicago Freestyle','Pain 1993','Losses','Blinding Lights','Time Flies','Toosie Slide','War','Desires','Deep Pockets','Not You Too','Demons','TSU','D4L','March 14'],
     description: 'Quarantine Drake. A collection of shelved gems and fan favorites that somehow felt perfectly timed for 2020. Toosie Slide broke TikTok before TikTok knew what hit it.',
     dna: { emotion: 68, production: 82, lyricism: 72, commercial: 88, toronto: 78 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e3/Dark_Lane_Demo_Tapes.jpg',
+    coverUrl: '/covers/dark-lane-demo-tapes.jpg',
     spotifyId: '6Z85u1w24d2tG3h6r8R9Y3',
     youtubeId: 'fMMr8_04dD0',
     streams: 11.2
@@ -144,7 +144,7 @@ export const albums = [
     tracklist: ['Champagne Poetry','TSU','Way 2 Sexy','TSU','Girls Want Girls','In The Bible','Love All','Fair Trade','Wild Love','No Friends In The Industry','Champagne Poetry','7am On Bridle Path','Papi\'s Home','Get Along Better','You Only Live Twice','TSU','IMY2','Fucking Fans','The Remorse'],
     description: 'The pregnant emoji album. CLB was divisive, maximalist, and undeniably Drake. The Kanye beef era. Champagne Poetry sampled Marvin Gaye. The 6 God in full romantic mode.',
     dna: { emotion: 85, production: 88, lyricism: 78, commercial: 92, toronto: 88 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/5/51/Certified_Lover_Boy_album_cover.jpg',
+    coverUrl: '/covers/certified-lover-boy.jpg',
     spotifyId: '3cf4iZuSKtIznvoIo1di6H',
     youtubeId: '0G_V12R2r5Y',
     streams: 31.7
@@ -159,7 +159,7 @@ export const albums = [
     tracklist: ['Intro','Falling Back','Texts Go Green','Currents','A Keeper','Massive','Flights Booked','Overdrive','Down Hill','Side A','Sticky','Massive','Liability','Jimmy Cooks'],
     description: 'The dance album nobody asked for but everyone secretly vibed to. Drake went full house music and critics hated it. The people? They danced. Sticky goes insane.',
     dna: { emotion: 65, production: 95, lyricism: 55, commercial: 80, toronto: 72 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/3/thirty/Honestly%2C_Nevermind.png',
+    coverUrl: '/covers/honestly-nevermind.jpg',
     spotifyId: '6P7u8PcgLgLqG3r7Y3Z4c3',
     youtubeId: 'L-s0nHYY-3c',
     streams: 9.8
@@ -174,7 +174,7 @@ export const albums = [
     tracklist: ['Rich Flex','Major Distribution','On BS','BackOutsideBoyz','Spin Bout U','Privileged Rappers','Hours In Silence','More M\'s','Treacherous Twins','Broke Boys','Just Like Rory','Circo Loco','Pussy & Millions','Middle of the Ocean','3AM on Glenwood'],
     description: 'Drake and 21 Savage pretended to drop an album on Spotify as a joke, then actually dropped it. Rich Flex broke everything. The most unexpectedly great collab of 2022.',
     dna: { emotion: 60, production: 90, lyricism: 78, commercial: 95, toronto: 75 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/4/4e/Her_Loss_album_cover.jpg',
+    coverUrl: '/covers/her-loss.jpg',
     spotifyId: '5r3tIznvoIo1di6H77',
     youtubeId: 'K3G1FSMF7-E',
     streams: 22.1
@@ -189,7 +189,7 @@ export const albums = [
     tracklist: ['Virginia Beach','Amen','Calling For You','8AM in Charlotte','Slime You Out','Tried Our Best','Fear Of Heights','Rich Baby Daddy','Bahamas Promises','Daylight','Away From Home','Members Only','IDGAF','First Person Shooter','We Failed As People','Red Button','You Broke My Heart','All The Parties','Polar Opposite','Gently'],
     description: 'First Person Shooter with J. Cole. Slime You Out with SZA. Drake back in rap mode, hungry, proving he still belongs at the top of the food chain.',
     dna: { emotion: 70, production: 85, lyricism: 80, commercial: 90, toronto: 82 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/4/4c/For_All_the_Dogs.jpg',
+    coverUrl: '/covers/for-all-the-dogs.jpg',
     spotifyId: '7Kds9K38iJj09i6mG8pN3C',
     youtubeId: 'z2d4y8S1mN9',
     streams: 18.9
@@ -204,7 +204,7 @@ export const albums = [
     tracklist: ['Nokia','Gimme A Hug','Bad Habit','Somebody Loves Me','More Than Enough','No Lie','Feelings','My Type','Slow Burn','All The Way','Come Closer','One More Time'],
     description: 'Drake and PARTYNEXTDOOR linking up officially. Nokia became a 2025 anthem. Romantic, late night, pure OVO Sound energy. The collab that fans waited years for.',
     dna: { emotion: 88, production: 90, lyricism: 72, commercial: 88, toronto: 85 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/0/08/Some_Sexy_Songs_4_U.jpg',
+    coverUrl: '/covers/some_sexy_songs.jpg',
     spotifyId: '3cf4iZuSKtIznvoIo1di6H',
     youtubeId: 'y9G6872v15m',
     streams: 7.4
@@ -219,7 +219,7 @@ export const albums = [
     tracklist: ['What Did I Miss?','Which One','Dog House','Iceman','Still Here','No Competition','Frozen','Cold World','Back To Back 2','The 6 Wins','Never Settle','Top Of The World','Smoke Signal','Last Laugh','The Come Up','Certified','Closure','Victory Lap'],
     description: 'The comeback album. Full of Kendrick Lamar references and zero apologies. Drake reminded everyone why he\'s the 6 God.',
     dna: { emotion: 72, production: 92, lyricism: 85, commercial: 90, toronto: 90 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Drake_-_Iceman.png/220px-Drake_-_Iceman.png',
+    coverUrl: '/covers/iceman.jpg',
     spotifyId: '1yGbNOtRIgdchJgZOb6t6S',
     youtubeId: 'fMMr8_04dD0',
     streams: 4.2
@@ -234,7 +234,7 @@ export const albums = [
     tracklist: ['Habibti','Desert Rose','Golden Hour','Midnight in Dubai','Lover\'s Prayer','Silk Road','Mediterranean','Oasis','Ancient Love','Sacred Heart','Eternal Flame','Homecoming'],
     description: 'The most unexpected Drake record. Middle Eastern influences, sweeping production, romantic and cinematic. Habibti showed a side of Drake nobody saw coming.',
     dna: { emotion: 92, production: 95, lyricism: 80, commercial: 85, toronto: 70 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Drake_-_Habibti.png/220px-Drake_-_Habibti.png',
+    coverUrl: '/covers/habibti.jpg',
     spotifyId: '68pi62529N363Z1nmwFhF4',
     youtubeId: '1DlSH766L_I',
     streams: 3.8
@@ -249,7 +249,7 @@ export const albums = [
     tracklist: ['Vows','Something Borrowed','White Dress','Forever Yours','First Dance','Toast','Better Half','Diamond Ring','Honeymoon Phase','Till Death','Love Letter','Champagne Kisses','The One'],
     description: 'The wedding album. Dropped the same day as ICEMAN and HABIBTI. Pure romance, lush production, Drake in his most vulnerable form.',
     dna: { emotion: 95, production: 90, lyricism: 82, commercial: 82, toronto: 78 },
-    coverUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Drake_-_Maid_of_Honour.png/220px-Drake_-_Maid_of_Honour.png',
+    coverUrl: '/covers/maid_of_honour.jpg',
     spotifyId: '6Mnj9mqBXtR6j66iHhpxM3',
     youtubeId: 'nWYFCQyXX5Y',
     streams: 3.1
